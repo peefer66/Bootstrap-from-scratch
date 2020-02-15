@@ -174,123 +174,148 @@
             <hr/>
             <div class="row">
                 <div class="col-md-6">
+
                     <div id="accordion">
                         <div class="card bg-dark">
-                            <div class="card-header">
+                            <div class="card-header" id="headingOne">
                                 <h5 class="mb-0">
-                                    <a href="#collapseOne" data-toggle="collapse"> Question One</a>
+                                    <button class="btn btn-link" data-toggle="collapse"
+                                    data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                        Question One
+                                    </button>
                                 </h5>
                             </div>
-
-                            <div id="collapseOne">
-                                <div class="card-body">
-                                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Natus eligendi necessitatibus 
-                                    soluta delectus fugiat quisquam fuga sunt, blanditiis dolorum nostrum sapiente eos esse, 
-                                    cupiditate vitae quo voluptatum est corporis, itaque facilis saepe cum laboriosam numquam 
-                                    modi! Deserunt quod iste ducimus!
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="card bg-dark">
-                            <div class="card-header">
-                                <h5 class="mb-0">
-                                    <a href="#collapseTwo" data-toggle="collapse" data-parent="#accordion"> Question Two</a>
-                                </h5>
-                            </div>
-
-                            <div id="collapseTwo">
-                                <div class="card-body">
-                                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Natus eligendi necessitatibus 
-                                    soluta delectus fugiat quisquam fuga sunt, blanditiis dolorum nostrum sapiente eos esse, 
-                                    cupiditate vitae quo voluptatum est corporis, itaque facilis saepe cum laboriosam numquam 
-                                    modi! Deserunt quod iste ducimus!
-                                </div>
-                            </div>
-                        </div>
                         
-
-                        <div class="card bg-dark">
-                            <div class="card-header">
-                                <h5 class="mb-0">
-                                    <a href="#collapseThree" data-toggle="collapse" data-parent="#accordion"> Question Three</a>
-                                </h5>
+                            <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordion">
+                                    <div class="card-body">
+                                    Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 
+                                    3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt 
+                                    laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin 
+                                    coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson 
+                                    cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat 
+                                    craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of 
+                                    them accusamus labore sustainable VHS.
+                                    </div>
                             </div>
 
-                            <div id="collapseThree">
+                        </div>
+
+                        <div class="card bg-dark">
+                            <div class="card-header" id="headingTwo">
+                                <h5 class="mb-0">
+                                <button class="btn btn-link collapsed" data-toggle="collapse"
+                                data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                    Question Two
+                                </button>
+                                </h5>
+                            </div>
+                            <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
                                 <div class="card-body">
-                                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Natus eligendi necessitatibus 
-                                    soluta delectus fugiat quisquam fuga sunt, blanditiis dolorum nostrum sapiente eos esse, 
-                                    cupiditate vitae quo voluptatum est corporis, itaque facilis saepe cum laboriosam numquam 
-                                    modi! Deserunt quod iste ducimus!
+                                Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 
+                                3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt 
+                                laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin 
+                                coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson 
+                                cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat 
+                                craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them 
+                                accusamus labore sustainable VHS.
                                 </div>
                             </div>
                         </div>
 
-
+                        <div class="card bg-dark">
+                            <div class="card-header" id="headingThree">
+                                <h5 class="mb-0">
+                                <button class="btn btn-link collapsed" data-toggle="collapse" 
+                                data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                    Question Three
+                                </button>
+                                </h5>
+                        </div>
+                            <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
+                                <div class="card-body">
+                                Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 
+                                3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt 
+                                laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin 
+                                coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson 
+                                cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft 
+                                beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus 
+                                labore sustainable VHS.
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
 
                 <div class="col-md-6">
                     <div id="accordion2">
                         <div class="card bg-dark">
-                            <div class="card-header">
+                            <div class="card-header" id="headingFour">
                                 <h5 class="mb-0">
-                                    <a href="#collapseFour" data-toggle="collapse" data-parent="#accordion2"> Question Four</a>
+                                    <button class="btn btn-link" data-toggle="collapse" 
+                                    data-target="#collapseFour" aria-expanded="true" aria-controls="collapseFour">
+                                        Question Four
+                                    </button>
                                 </h5>
                             </div>
-
-                            <div id="collapseFour">
-                                <div class="card-body">
-                                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Natus eligendi necessitatibus 
-                                    soluta delectus fugiat quisquam fuga sunt, blanditiis dolorum nostrum sapiente eos esse, 
-                                    cupiditate vitae quo voluptatum est corporis, itaque facilis saepe cum laboriosam numquam 
-                                    modi! Deserunt quod iste ducimus!
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="card bg-dark">
-                            <div class="card-header">
-                                <h5 class="mb-0">
-                                    <a href="#collapseFive" data-toggle="collapse" data-parent="#accordion2"> Question Five</a>
-                                </h5>
-                            </div>
-
-                            <div id="collapseFive">
-                                <div class="card-body">
-                                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Natus eligendi necessitatibus 
-                                    soluta delectus fugiat quisquam fuga sunt, blanditiis dolorum nostrum sapiente eos esse, 
-                                    cupiditate vitae quo voluptatum est corporis, itaque facilis saepe cum laboriosam numquam 
-                                    modi! Deserunt quod iste ducimus!
-                                </div>
-                            </div>
-                        </div>
                         
-
-                        <div class="card bg-dark">
-                            <div class="card-header">
-                                <h5 class="mb-0">
-                                    <a href="#collapseSix" data-toggle="collapse" data-parent="#accordion2"> Question Six</a>
-                                </h5>
+                            <div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-parent="#accordion2">
+                                    <div class="card-body">
+                                    Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid.
+                                    3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt
+                                    laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin
+                                    coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes
+                                    anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. 
+                                    Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you 
+                                    probably haven't heard of them accusamus labore sustainable VHS.
+                                    </div>
                             </div>
 
-                            <div id="collapseSix">
+                        </div>
+
+                        <div class="card bg-dark">
+                            <div class="card-header" id="headingFive">
+                                <h5 class="mb-0">
+                                <button class="btn btn-link collapsed" data-toggle="collapse" 
+                                data-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                                    Question Five
+                                </button>
+                                </h5>
+                            </div>
+                            <div id="collapseFive" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion2">
                                 <div class="card-body">
-                                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Natus eligendi necessitatibus 
-                                    soluta delectus fugiat quisquam fuga sunt, blanditiis dolorum nostrum sapiente eos esse, 
-                                    cupiditate vitae quo voluptatum est corporis, itaque facilis saepe cum laboriosam numquam 
-                                    modi! Deserunt quod iste ducimus!
+                                Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid.
+                                3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt 
+                                laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin
+                                coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes
+                                anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo.
+                                Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably
+                                haven't heard of them accusamus labore sustainable VHS.
                                 </div>
                             </div>
                         </div>
 
-
+                        <div class="card bg-dark">
+                            <div class="card-header" id="headingSix">
+                                <h5 class="mb-0">
+                                <button class="btn btn-link collapsed" data-toggle="collapse" 
+                                data-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
+                                    Question Six
+                                </button>
+                                </h5>
+                        </div>
+                            <div id="collapseSix" class="collapse" aria-labelledby="headingSix" data-parent="#accordion2">
+                                <div class="card-body">
+                                Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid.
+                                3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt 
+                                laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin 
+                                coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes 
+                                anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. 
+                                Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably 
+                                haven't heard of them accusamus labore sustainable VHS.
+                                </div>
+                            </div>
+                        </div>
                     </div>
-
-                </div>
-
-                <div class="col-md-6">
 
                 </div>
             </div>
